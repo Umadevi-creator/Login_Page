@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+   <style type="text/css">
+  h2.h2_green
+  {
+  color:green;
+  }
+  #welcome
+  {
+  color:red;
+  }
+   </style>
+  <title>Document</title>
+ </head>
+ <body>
+  <h3 style="color:blue"> India</h3>
+  <h1 style="color:red"> Pakistan</h1>
+  <h2 class="h2_green">Singapore</h2>
+  <h2 class="h2_green">malasiya</h2>
+  <h3 class="welcome">America</h3>
+ 
+  <title>
+ 
+  </title>
+ </body>
+</html>

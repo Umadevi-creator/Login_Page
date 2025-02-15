@@ -1,0 +1,266 @@
+
+     
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <style type="text/css">
+    label{
+ font-family:Georgia;
+ color:#00FFFF
+ font-style:courier new;
+ text-align:left;
+ width:150px;
+ display:inline-block;
+ }
+
+    input[type="text"], input[type="number"], input[type="date"], input[type="email"], input[type="tel"] {
+      width: 250px;
+      padding: 5px;
+    }
+    .
+    button {
+      padding: 10px 20px;
+      background-color: #008B8B;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin: 10px;
+    }
+	form {
+      border: 2px solid #000; /* 2px solid black border */
+      padding: 15px;
+      margin: 10px 0;
+    }
+   
+   .green-button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      border: 2px solid #388e3c;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .red-button {
+      background-color: #f44336; /* Red */
+      color: white;
+      border: 2px solid #e53935;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+   
+  </style>
+  <title>Student Login Form</title>
+</head>
+<body bgcolor="lightblue">
+
+  <div class="form-container">
+    <h3><center><b>Welcome to Student Login</b><center></h3>
+
+
+    <form><b>
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="Enter First Name" id="fname" name="fname">
+      </div>
+      <br>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" placeholder="Enter Last Name" id="lname" name="lname">  
+      </div>
+      <br>
+      <div>
+        <label for="password">Password:</label>
+        <input type="text" placeholder="Enter Password" id="password" name="password">  
+      </div>
+      <br>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" placeholder="Enter Date of Birth" id="dob" name="dob">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter Email" id="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label for="mno">Mobile Number:</label>
+        <input type="text" placeholder="Enter Mobile Number" id="mno" name="mno">
+      </div>
+      <br>
+      <div>
+        <label for="Address">Address:</label>
+        <input type="text" placeholder="Enter Address" id="Address" name="Address">
+        <br><br>
+        <label for="city">City:</label>
+        <input type="text" placeholder="Enter City" id="city" name="city">
+        <br><br>
+        <label for="pincode">Pincode:</label>
+        <input type="number" placeholder="Enter Pincode" id="pincode" name="pincode">
+        <br><br>
+        <label for="State">State:</label>
+        <input type="text" placeholder="Enter State" id="State" name="State">
+        <br><br>
+        <label for="country">Country:</label>
+        <input type="text" placeholder="Enter Country" id="country" name="country">
+        <br><br>
+      </div>
+
+      <div>
+        <label for="course">Choose Course:</label>
+        <input type="checkbox" name="course" value="BSc"> BSc
+        <input type="checkbox" name="course" value="MSc"> MSc
+        <input type="checkbox" name="course" value="MCA" checked> MCA
+      </div>
+      <br>
+      <div>
+        <label for="hobbies">Hobbies:</label>
+        <input type="radio" name="hobbies" value="Cricket"> Cricket
+        <input type="radio" name="hobbies" value="Football"> Football
+        <input type="radio" name="hobbies" value="Tennis" checked> Tennis
+      </div>
+
+      <h3>Qualification</h3>
+      <table>
+        <tr>
+          <th>SI.No</th>
+          <th>Examination</th>
+          <th>Board</th>
+          <th>Percentage</th>
+          <th>Passing Year</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>X</td>
+          <td><input type="text" id="X1" name="X1" size="40"></td>
+          <td><input type="number" id="X2" name="X2" size="40"></td>
+          <td><input type="number" id="X3" name="X3" size="40"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>XII</td>
+          <td><input type="text" id="X11" name="X11" size="40"></td>
+          <td><input type="number" id="X12" name="X12" size="40"></td>
+          <td><input type="number" id="X13" name="X13" size="40"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Graduation</td>
+          <td><input type="text" id="G1" name="G1" size="40"></td>
+          <td><input type="number" id="G2" name="G2" size="40"></td>
+          <td><input type="date(year)" id="G3" name="G3" size="40"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Master</td>
+          <td><input type="text" id="M1" name="M1" size="40"></td>
+          <td><input type="number" id="M2" name="M2" size="40"></td>
+          <td><input type="number" id="M3" name="M3" size="40"></td>
+        </tr>
+      </table>
+
+      <br><br>
+      <center>
+        <button type="button" class="green-button" onclick="Student()">Login</button>
+        <button type="reset" class="red-button">Reset</button>
+      </center>
+    </form>
+  </b></div>
+<
+  <script type="text/javascript">
+    function Student() {
+      var firstname = document.getElementById("fname").value;
+      console.log("First Name: " + firstname);
+
+      var lastname = document.getElementById("lname").value;
+      console.log("Last Name: " + lastname);
+
+      var password = document.getElementById("password").value;
+      console.log("Password: " + password);
+
+      var encodedString = window.btoa(password);
+      document.getElementById("password").value = encodedString;
+      console.log("Encoded Password: " + encodedString);
+
+      var dob = document.getElementById("dob").value;
+      console.log("DOB: " + dob);
+
+      var email = document.getElementById("email").value;
+      console.log("Email: " + email);
+
+      var phone = document.getElementById("mno").value;
+      console.log("Phone: " + phone);
+
+      var address = document.getElementById("Address").value;
+      console.log("Address: " + address);
+
+      var city = document.getElementById("city").value;
+      console.log("City: " + city);
+
+      var pincode = document.getElementById("pincode").value;
+      console.log("Pincode: " + pincode);
+
+      var state = document.getElementById("State").value;
+      console.log("State: " + state);
+
+      var country = document.getElementById("country").value;
+      console.log("Country: " + country);
+
+      var hobbies = document.getElementsByName("hobbies");
+      var hobbies_res = '';
+      for (var i = 0; i < hobbies.length; i++) {
+        if (hobbies[i].checked) {
+          if (hobbies_res !== '') {
+            hobbies_res += ', ';
+          }
+          hobbies_res += hobbies[i].value;
+        }
+      }
+
+      var courses = document.getElementsByName("course");
+      var courses_res = '';
+      for (var i = 0; i < courses.length; i++) {
+        if (courses[i].checked) {
+          if (courses_res !== '') {
+            courses_res += ', ';
+          }
+          courses_res += courses[i].value;
+        }
+      }
+
+      var qualifications = {
+        X: [document.getElementById("X1").value, document.getElementById("X2").value, document.getElementById("X3").value],
+        XII: [document.getElementById("X11").value, document.getElementById("X12").value, document.getElementById("X13").value],
+        Graduation: [document.getElementById("G1").value, document.getElementById("G2").value, document.getElementById("G3").value],
+        Master: [document.getElementById("M1").value, document.getElementById("M2").value, document.getElementById("M3").value]
+      };
+
+      var stu = window.open("", "Student Registration Form", "width=600,height=600");
+      stu.document.write("<h3>Student Registration Details</h3>");
+      stu.document.write("First Name: " + firstname + "<br>");
+      stu.document.write("Last Name: " + lastname + "<br>");
+      stu.document.write("Password (Encoded): " + encodedString + "<br>");
+      stu.document.write("Date of Birth: " + dob + "<br>");
+      stu.document.write("Email: " + email + "<br>");
+      stu.document.write("Phone: " + phone + "<br>");
+      stu.document.write("Address: " + address + "<br>");
+      stu.document.write("City: " + city + "<br>");
+      stu.document.write("Pincode: " + pincode + "<br>");
+      stu.document.write("State: " + state + "<br>");
+      stu.document.write("Country: " + country + "<br>");
+      stu.document.write("Hobbies: " + hobbies_res + "<br>");
+      stu.document.write("Courses: " + courses_res + "<br>");
+      stu.document.write("Class X: " + qualifications.X.join(", ") + "<br>");
+      stu.document.write("Class XII: " + qualifications.XII.join(", ") + "<br>");
+      stu.document.write("Graduation: " + qualifications.Graduation.join(", ") + "<br>");
+      stu.document.write("Master's: " + qualifications.Master.join(", ") + "<br>");
+    }
+  </script>
+
+</body>
+</html>

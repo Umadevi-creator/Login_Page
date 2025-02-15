@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ 
+ <!--<script src=C:\java_code\HTML\javascript1.js></script>
+//  <script src="C:\java_code\HTML\Javascript.js">
+//  document.write("welcome");
+//alert("gooo");
+ /* console.log("Hello");
+   var a1=10;
+   var a2=68.67;
+   var a3="rosy";
+   var a4=false;
+   document.write(a1,a2,a3);
+   */
+  </script>
+  <script>
+ /*  console.log("Hello");
+   var a1=10;
+   var a2=68.67;
+   var a3="rosy";
+   var a4=false;
+   document.write(a1,a2);
+   console.log(a1,a2,a3,a4);
+   </script>
+  <script>
+  var x=prompt("Enter x value");
+  console.log(x);
+ 
+  </script>
+   */-->
+
+  <script>
+  
+  var a=25;
+  var b=23.56;
+  console.log(a+b);
+  console.log(a+Number(b));
+  console.log(25+Number(23.56));
+  console.log(100+parseInt(7));
+   console.log(100+parseInt(7.007));
+  var a1=100;
+  var b1=101.07;
+  console.log(parseInt(a1)+parseInt(b1));
+  var x1=null;
+  var x2=0007;
+  console.log(x1+x2);
+  console.log(x1);
+  console.log(x2);
+  console.log(parseInt(20.7)+parseInt(300.17));
+   console.log(Math.ceil(78.76));
+    console.log(Math.floor(78.76));
+	var x3="Hello world";
+	console.log(x3.toLowerCase());
+	console.log(x3.indexOf(3));
+	console.log(x3.trim());
+	console.log(x3.substring(2,8));
+	console.log(x3.replace('H','d'));
+	console.log(x3.replaceAll('a'));
+	console.log(x3.lastIndexOf('o'));
+	var s1=75;
+	var s2="hello"
+	var s3="75";
+	console.log(s1+s2);
+	console.log(s1+s3);
+  console.log(s2+s3);
+  console.log(s1-s2);
+  console.log(s2-s3);
+  console.log(s3-s1);
+
+
+ let k=10;
+ var f=100;
+ const g=1000;
+ console.log(k);
+ console.log(f);
+ console.log(g);
+
+
+</script>
+  <script>
+  function demo()
+  {
+   console.log("helloworld");
+   document.write("hii");
+   }
+    function demoo()
+  {
+   var a=20;
+   var b=25;
+   document.write(a+b);
+   }
+   function dem(a,b)
+  {
+   document.write(a+b);
+   }
+   function Hello()
+   {
+	 document.write("submit")
+	 //window.open("file:///C:/java_code/HTML/htmljs.html")
+	 // window.open("file:///C:/java_code/HTML/htmljs.html","sample",width=400,height=400)
+	//  window.open("https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=w3schools",width=400,height=400)
+	//window.location.href="https://in.search.yahoo.com/search?fr=mcafee&type=E210IN826G0&p=w3schools"
+	   }
+    
+     function twonum()
+	 {
+		  let x=window.open();
+	 x.document.write(50+50);
+	
+	 }
+
+  </script>
+ 
+  <button onclick="demo()" id=bt1>
+  Button1
+  </button>
+   <button onclick="demoo()" id=bt2>
+  Button2
+  </button>
+   <button onclick="dem(10,'umaah')" id=bt3>
+  Button
+  </button>
+<button type="button" id="button" onclick="Hello()">Submit </button>
+<button type="button" id="button" onclick="twonum()">Submit </button>
+
+ </body>
+</html>
+ var h=90;
+ var t=3
+ var y;
+ function sample()
+ {
+ var k=56;
+ console.log(h,p);
+ console.log(t1);
+ console.log(y);
+ }
+  var h=90;
+ var k=3
+ var r;
+ function sample()
+ {
+ let m=100;
+ console.log(h,m);
+ console.log(k1);
+ console.log(r);
+ }
+ const l=98;
+ const u=76;
+ const s;
+ function sample()
+ {
+ const j;
+ console.log(h,m);
+ console.log(l,j);
+ console.log(s);
+ }
+ let a1=100;
+ let a2=100;
+ var a1=100;
+ var a2=100;
+ const a1=100;
+ const a2=100;
+ console.log(a1==a2);
+  console.log(a1===a2);

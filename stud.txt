@@ -1,0 +1,105 @@
+function student()
+{
+var firstname=document.getElementById("firstname").value;
+//console.log(fname);
+
+var lastname=document.getElementById("lastname").value;
+//console.log(lname);
+
+var password=document.getElementById("password").value;
+console.log(password);
+var encodedString;
+var baseString=document.getElementById("password").value;
+encodedString=window.btoa(baseString);
+document.getElementById("password").value=encodedString;
+console.log(encodedString);
+
+var DOB=document.getElementById("dob").value;
+//console.log(dob);
+
+var Gmail=document.getElementById("gmail").value;
+//console.log(gmail);
+
+var Phonenumber=document.getElementById("number").value;
+//console.log(number);
+
+var Address=document.getElementById("address").value;
+//console.log(address);
+
+var City=document.getElementById("city").value;
+//console.log(c);
+
+var pincode=document.getElementById("pincode").value;
+//console.log(pincode);
+
+var state=document.getElementById("state").value;
+//console.log(state);
+
+var country=document.getElementById("country").value;
+//console.log(country);
+
+var hobbies=document.getElementsByName("Hobbies");
+var Hobbies_res='';
+for(i=0;i<hobbies.length;i++)//using forloop
+   {
+	   if(hobbies[i].checked)
+	   {
+		   if(Hobbies_res!=='')
+		   {
+			   Hobbies_res+=',';
+		   }
+		   Hobbies_res+=hobbies[i].value
+	   }
+	}
+
+var course=document.getElementsByName("course");
+var course_res='';
+for(var temp of course)
+	{
+	   if(temp.checked)
+	   {
+		   //console.log(temp.value);
+		  course_res=temp.value;
+	   }
+	}
+
+var cls10A=document.getElementById("cls10A").value;
+var cls10B=document.getElementById("cls10B").value;
+var cls10c=document.getElementById("cls10c").value;
+
+
+var cls12A=document.getElementById("cls12A").value;
+var cls12b=document.getElementById("cls12b").value;
+var cls12c=document.getElementById("cls12c").value;
+
+var gra_a=document.getElementById("gra_a").value;
+var gra_b=document.getElementById("gra_b").value;
+var gra_c=document.getElementById("gra_c").value;
+
+
+var mas_a=document.getElementById("mas_a").value;
+var mas_b=document.getElementById("mas_b").value;
+var mas_c=document.getElementById("mas_c").value;
+
+
+
+var stu=window.open(" ","Student Registraction Form","width=300,height=300");
+stu.document.write("firstname - "+firstname+"<br>");
+stu.document.write("lastname - "+lastname+"<br>");
+stu.document.write("password - "+encodedString+"<br>");
+stu.document.write("dob - "+DOB+"<br>");
+stu.document.write("mail - "+Gmail+"<br>");
+stu.document.write("Number - "+phonenumber+"<br>");
+stu.document.write("Address - "+address+"<br>");
+stu.document.write("city - "+city+"<br>");
+stu.document.write("state - "+state+"<br>");
+stu.document.write("country - "+country+"<br>");
+stu.document.write("Hobbies - "+Hobbies_res+"<br>");
+stu.document.write("course - "+course_res+"<br>");
+stu.document.write("class X - "+cls10A+" "+cls10B+" "+cls10c+"<br>");
+stu.document.write("class XII - "+cls12A+" "+cls12b+" "+cls12c+"<br>");
+stu.document.write("graduation - "+gra_a+" "+gra_b+" "+gra_c+"<br>");
+stu.document.write("Master - "+mas_a+" "+mas_b+" "+mas_c+"<br>");
+
+
+}

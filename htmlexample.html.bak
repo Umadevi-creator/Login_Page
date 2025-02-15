@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body bgcolor="lightgreen">
+  <h1><center><b>LOGIN<hr width="25%" size="2"/></b></center></h1>
+  <h2><center><b><u>welcome to login</u><b></center><h2>
+  <ol>
+  <li> List item 1</li>
+  <li> List item 2</li>
+  <li> list item 3</li>
+  <li> username</li>
+  </ol>
+  <br>
+  <ul >
+  <li> network </li>
+   <li> Design </li>
+   <ul type=" circle">
+  <li> network </li>
+   <li> Design </li>
+   </ul>
+   <u> htmlpage </u>
+   <br>
+   <table border="2"  bordercolor='red' cellpadding="2" cellingspace="2" width="10%">
+   <tr>
+   <td> name </td>
+   <td> address </td>
+   </td>
+   </tr>
+    <table border="1"  bordercolor='dark blue'  cellpadding="2" cellingspace="2" width="10%">
+   <tr>
+   <th> ROllNO </td>
+   <th> SUBJECT </td>
+   </tr>
+   <tr>
+   <td> 112 </td>
+   <td> JAVA </td>
+   </tr>
+    <tr>
+   <td> 092 </td>
+   <td> HTML </td>
+   </tr>
+   </td>
+   </tr>
+   </table>
+
+     <table border="1"  bordercolor='dark blue'  cellpadding="2" cellingspace="2" width="10%">
+   <tr>
+   <th colspan='2'>NAME </td>
+   <th> SUBJECT </td>
+   </tr>
+   <tr>
+   <td> uma </td>
+   <td> maheswari </td>
+    <td> HTML </td>
+   </tr>
+    <tr>
+   <td> shindhiya </td>
+   <td> manikandan </td>
+   <td> HTML </td>
+   </tr>
+   </td>
+   </tr>
+   </table>
+
+     <table border="1"  bordercolor='dark blue'  cellpadding="2" cellingspace="2" width="10%">
+   <tr>
+   <th  >REGNO </td>
+   <th rowspan='1'> MARK </td>
+   </tr>
+   <tr>
+   <td  rowspan='2'> 112 </td>
+   <td colspan='2' > 95 </td>
+    <td> 94 </td>
+   </tr>
+   </td>
+   </tr>
+   </table>
+   <div>
+   username
+<input type="text" size="10" maxlength="35">
+<input type="Submit" value="Submit">
+   </div>
+     <div>
+   ENTERNAME:&nbsp&nbsp&nbsp&nbsp
+<input type="text" size="10" maxlength="35">
+<br>
+<input type="Submit" value="Submit">
+   </div>
+   <div> 
+   <i>uma maheshwari<i>
+   </div>
+   <!--<img src='C:\java_code\ph.jpg'> 
+    <img src='..\ph.jpg'>
+	 <img src='ph.jpg'>
+	 <img src='..\ph.jpg' height='50%' width='50%'>
+	  <img src='..\ph.jpg' height='20%' width='20%'>
+	  
+	-->
+ <img src='..\ph.jpg' height=10% width=5%>
+   <img src='.\phs.jpg' height=10% width=5%>
+   <img src='C:\java_code\abc\phs.jpg' height=10% width=5%>
+  <a href="file:///C:/java_code/HTML/htmljs.html">Click</a>
+  <a href="#">Click1</a>
+   <a href="void(0)">Click2</a>
+    <a href="javascript:void(0)">Click1</a>
+  <body>
+</html>

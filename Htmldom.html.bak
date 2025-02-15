@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+
+ <body>
+
+  <script>
+ function but()
+ {  // var x=document.getElementById("but1");
+    // var x=document.getElementById("but1").value;
+      //var x=document.getElementsByName("but1");
+     //console.log(x);
+	// console.log("buttonfunction")
+
+	// var y=document.getElementById("one");
+	// var y=document.getElementsByName("sample");
+	//  var y=document.getElementById("one").value;
+	 // var y=document.getElementsByName("sample").value;
+       //console.log(y);
+	   //var z=document.getElementById("area");
+	   // var z=document.getElementById("area").value;
+	//  console.log(z);
+	//  console.log(z.length)
+	//  console.log(z.replace(empty))
+
+	// var x=document.getElementById("pgm");
+	 //console.log(x);
+	 // var y=document.getElementById("pgm");
+	//  console.log(y);
+	// var temp=x.options[x.selectedIndex].value;
+	var x=document.getElementById("pass").value;
+	 console.log(x);
+
+	 }
+ </script>
+  <button onclick="but()" id="but1" value="hii" name="buttonu1"> button</button>
+  <input type="textbox"  onclick="but()" id="one" name="sample"/>
+ <textarea row=1 onclick="but()" id="area" name="textsample"></textarea>
+ <select id="pgm">
+ <option value="java">Java</option>
+  <option value="html">Html</option>
+   <option value="python">Python</option>
+    <option value="oracle">Oracle</option>
+	 <option value="c">C</option>
+	 
+	 </select>
+	 <button onclick="but()" id="but1" value="hii" name="buttonu1"> button</button>
+	 <input type="password"  onclick="but()" id="pass" name="login">password</input>;
+	  <button onclick="but()" id="but1" value="hii" name="buttonu1"> button</button>
+	
+	<!-- <script>
+      function demo()
+	  {   
+		   console.log("set");
+	 }
+	  setInterval(demo,3000);
+	   </script>-->>
+	   <body onclick="dem()">
+	    <script>
+	   function dem()
+	  {   
+		   console.log("settime");
+	 }
+	  setTimeout(dem,3000);
+	  </script>
+	   <script>
+	   function dem()
+	  {   
+		   console.log("settime");
+		   alert(a)
+	 }
+	  var a=setTimeout(dem,3000);
+	  </script>
+	  </body
+
+</body
+	 </script>
+ </body>
+</html>

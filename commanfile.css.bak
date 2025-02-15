@@ -1,0 +1,18 @@
+
+   <style type="text/css">
+
+   p.ex4 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: 4px;
+}
+  h2.h2_green
+  {
+  color:green;
+  }
+  #welcome
+  {
+  color:red;
+  }
+  </style>
